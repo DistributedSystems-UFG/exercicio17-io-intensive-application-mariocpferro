@@ -1,0 +1,108 @@
+The quick brown fox jumps over the lazy dog.
+Java is a high-level, class-based, object-oriented programming language.
+Concurrency is the ability of a program to be decomposed into parts that can run out of order.
+A thread is the smallest unit of processing that can be performed in an operating system.
+Thread pools reduce the overhead of thread creation by reusing a fixed set of threads.
+The Java Virtual Machine schedules threads for execution on available processors.
+File I/O involves reading from or writing to persistent storage devices such as disks.
+Buffered I/O improves performance by reducing the number of system calls required.
+A server socket listens on a port and accepts incoming client connections.
+TCP provides reliable, ordered, and error-checked delivery of data between applications.
+When a thread performs blocking I/O, it releases the CPU allowing other threads to run.
+Race conditions occur when multiple threads access shared data without synchronization.
+Synchronization primitives include mutexes, semaphores, and monitors.
+A deadlock occurs when two or more threads are blocked forever waiting for each other.
+ExecutorService is a Java interface that provides methods to manage thread pools.
+Callable and Runnable are interfaces used to define tasks executed by threads.
+Future represents the result of an asynchronous computation in Java.
+CountDownLatch allows threads to wait until a set of operations complete.
+CyclicBarrier lets a set of threads wait for each other at a common barrier point.
+Semaphore controls access to a shared resource through a set of permits.
+The Producer-Consumer pattern uses a shared buffer and synchronization to decouple producers from consumers.
+Java's synchronized keyword provides mutual exclusion for critical sections.
+ReentrantLock offers the same behavior as synchronized but with more flexibility.
+AtomicInteger provides atomic operations on integer values without explicit synchronization.
+Volatile ensures visibility of variable changes across threads in Java.
+Thread-local storage provides each thread with its own independent copy of a variable.
+The happens-before relationship defines the ordering guarantees between thread operations.
+Amdahl's Law describes the theoretical speedup of a program using multiple processors.
+Context switching is the process of saving and restoring the state of a thread or process.
+Operating systems use scheduling algorithms to determine which thread runs next.
+Round-robin scheduling assigns equal time slices to all ready threads in cyclic order.
+Priority-based scheduling allows higher-priority threads to preempt lower-priority ones.
+Non-blocking I/O allows a single thread to handle many connections simultaneously.
+Java NIO provides non-blocking I/O channels and selectors for scalable network servers.
+A selector monitors multiple channels for events like read-ready or connection-accepted.
+The Reactor pattern handles service requests delivered concurrently using event demultiplexing.
+Load balancing distributes workloads across multiple servers to improve throughput.
+Horizontal scaling adds more machines to a system to increase capacity.
+Vertical scaling increases the resources of an existing machine to improve performance.
+Microservices architecture decomposes an application into small independent services.
+RESTful APIs use HTTP verbs and stateless communication between client and server.
+Latency measures the time from sending a request to receiving the first response byte.
+Throughput measures the number of requests a system can process per unit of time.
+Response time is the total time taken to fulfill a single request end-to-end.
+Percentile metrics like P99 help understand tail latency in distributed systems.
+A bottleneck is a resource that limits the overall throughput of a system.
+Queue theory helps analyze waiting times and resource utilization in concurrent systems.
+Little's Law relates throughput, latency, and the number of concurrent requests in a system.
+Benchmarking measures the performance characteristics of a system under controlled conditions.
+Profiling identifies performance hotspots in code by measuring execution time per section.
+Garbage collection in Java automatically reclaims memory no longer referenced by the program.
+Stop-the-world pauses occur when the garbage collector suspends all application threads.
+The G1 garbage collector in Java is designed for large heaps with predictable pause times.
+JIT compilation improves runtime performance by compiling bytecode to native machine code.
+The JVM warm-up period refers to the time before JIT optimizations take full effect.
+Memory-mapped files allow large files to be accessed as if they were in memory.
+The page cache in the OS caches recently accessed disk blocks in RAM for faster access.
+Cache hits avoid disk access while cache misses require reading from the slower storage device.
+SSD storage offers much lower read latency compared to traditional spinning hard drives.
+RAID configurations can improve disk throughput by striping data across multiple drives.
+Database connection pools reuse connections to avoid the overhead of establishing new ones.
+PreparedStatement in JDBC caches compiled SQL queries for repeated efficient execution.
+Indexing in databases speeds up read queries at the cost of slower writes and more storage.
+Normalization reduces data redundancy in relational databases to maintain data integrity.
+Transactions provide atomicity, consistency, isolation, and durability in database operations.
+Optimistic locking assumes conflicts are rare and checks for them only at commit time.
+Pessimistic locking acquires locks before reading data to prevent concurrent modifications.
+Eventual consistency allows distributed systems to remain available despite temporary inconsistencies.
+The CAP theorem states that a distributed system can provide at most two of three guarantees.
+Consensus algorithms like Raft ensure agreement among distributed nodes on a single value.
+Replication copies data to multiple nodes to improve availability and fault tolerance.
+Sharding partitions data across multiple nodes to distribute load and increase capacity.
+Message queues decouple producers and consumers and buffer messages during peak load.
+Publish-subscribe systems allow multiple consumers to receive the same message independently.
+Circuit breakers prevent cascading failures by stopping requests to a failing service.
+Retries with exponential backoff reduce pressure on overloaded services during recovery.
+Health checks allow load balancers to route traffic away from unhealthy service instances.
+Distributed tracing tracks requests as they flow through multiple services in a system.
+Observability encompasses logs, metrics, and traces needed to understand system behavior.
+Alerts notify engineers when system metrics exceed defined thresholds for action.
+Blue-green deployments minimize downtime by switching traffic between two identical environments.
+Canary releases gradually roll out changes to a small subset of users before full deployment.
+Feature flags enable or disable features at runtime without deploying new code.
+Infrastructure as code manages and provisions infrastructure through machine-readable config files.
+Containers package applications with their dependencies for consistent deployment across environments.
+Kubernetes orchestrates containerized workloads and manages scaling, networking, and storage.
+Service meshes provide traffic management, observability, and security between microservices.
+API gateways serve as a single entry point for clients and handle cross-cutting concerns.
+OAuth2 and JWT are widely used standards for authentication and authorization in APIs.
+TLS encrypts data in transit to protect against eavesdropping and tampering.
+Certificate pinning binds a server to a specific public key to prevent man-in-the-middle attacks.
+Input validation prevents injection attacks by ensuring data conforms to expected formats.
+The principle of least privilege limits access rights for accounts to only what is necessary.
+Penetration testing simulates attacks to identify security vulnerabilities in systems.
+Code reviews help catch security issues, logic bugs, and maintainability problems early.
+Continuous integration runs automated tests on each code change to detect regressions quickly.
+Continuous deployment automatically releases passing builds to production environments.
+Static analysis tools examine code without executing it to find potential bugs and issues.
+Unit tests verify the behavior of individual components in isolation from dependencies.
+Integration tests verify that components work correctly when combined together.
+End-to-end tests simulate real user workflows to validate the full application stack.
+Test-driven development writes tests before implementation to drive design decisions.
+Dependency injection decouples component creation from usage to improve testability.
+The SOLID principles guide object-oriented design toward maintainable and extensible software.
+Design patterns provide reusable solutions to commonly occurring problems in software design.
+Refactoring improves code structure without changing external behavior to reduce technical debt.
+Documentation helps future developers understand the purpose, design, and usage of code.
+Semantic versioning communicates the nature of changes in software releases to consumers.
